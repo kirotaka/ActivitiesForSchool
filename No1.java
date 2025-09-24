@@ -1,16 +1,17 @@
 import java.util.Scanner;
 public class No1 {
-// Write a program that will accept a measurement in inches, then output the equivalent in Feet
-// and Centimeters.
-// Sample Output:
-// ENTER MEASUREMENT IN INCHES : 99
-// EQUIVALENT IN FEET : 99
-// EQUIVALENT IN CENTIMETERS : 999
     public static void main(String[] args) {
+        // for input
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter measurement in inches: ");
-        double inchest = sc.nextDouble();
-        
+        System.out.print("ENTER MEASUREMENT IN INCHES : ");
+        double inches = sc.nextDouble();
+        //calculation for feet and centimeters
+        double feet = inches / 12; 
+        double centimeters = inches * 2.54; 
+        // print
+        System.out.printf("QUIVALENT IN FEET : %.2f\n", feet);
+        System.out.printf("QUIVALENT IN CENTIMETERS : %.2f\n", centimeters);
+        sc.close();
     }
 }
 
