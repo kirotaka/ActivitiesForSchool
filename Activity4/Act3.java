@@ -1,7 +1,6 @@
 package Activity4;
 import java.util.Scanner;
-//Write a program that will input numbers from 1 to 12 and will display the equivalent
-//months of the year.
+
 public class Act3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
