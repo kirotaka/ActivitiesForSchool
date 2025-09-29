@@ -1,11 +1,24 @@
 package Activity4;
 import java.util.Scanner;
 
+/*
+ * Number 3
+ * This program converts a numeric month (1-12) to its corresponding month name.
+ * It uses a switch statement to map each number to the appropriate month.
+ * 
+ * Input: An integer from 1 to 12 representing the month
+ * Output: The name of the month, or "Invalid Number" for invalid input
+ */
 public class Act3 {
     public static void main(String[] args) {
+        // Create scanner object for user input
         Scanner sc = new Scanner(System.in);
+        
+        // Prompt user for month number input
         System.out.print("Please input a number from 1 - 12: ");
         int months = sc.nextInt();
+        
+        // Use switch statement to convert number to month name
         switch (months) {
             case 1:
                 System.out.println("January");
@@ -44,9 +57,12 @@ public class Act3 {
                 System.out.println("December");
                 break;
             default:
+                // Handle invalid input (numbers outside 1-12 range)
                 System.out.println("Invalid Number");
                 break;
         }
-
+        
+        // Close scanner to prevent resource leak
+        sc.close();
     }
 }
