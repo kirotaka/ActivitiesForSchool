@@ -8,7 +8,6 @@ import java.util.Scanner;
  * It reads a character (m/f) and displays an appropriate greeting:
  * - 'm' displays "HELLO SIR"
  * - Any other input displays "HELLO MADAM"
- * 
  * Input: A character representing gender (m for male, f for female)
  * Output: Gender-appropriate greeting message
  */
