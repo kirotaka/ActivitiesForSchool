@@ -7,9 +7,8 @@ import java.util.Scanner;
  * This program calculates registration fees based on the number of registrants.
  * It uses a tiered pricing system:
  * - 1-4 registrants: P500 per person
- * - 5-10 registrants: P400 per person  
+ * - 5-10 registrants: P400 per person
  * - 11+ registrants: P300 per person
- * 
  * Input: Number of registrants (integer)
  * Output: Total amount owed or error message for invalid input
  */
