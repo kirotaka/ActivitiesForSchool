@@ -10,7 +10,6 @@ import java.util.Scanner;
  * - Product IDs 2, 9: P12.35
  * - Product IDs 5, 7, 11: P11.46
  * - Other IDs: Invalid Product ID message
- * 
  * Input: Product ID (integer)
  * Output: Product price or error message for invalid ID
  */
