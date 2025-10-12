@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Number 3
  * This program converts a numeric month (1-12) to its corresponding month name.
  * It uses a switch statement to map each number to the appropriate month.
- * 
+ *
  * Input: An integer from 1 to 12 representing the month
  * Output: The name of the month, or "Invalid Number" for invalid input
  */
