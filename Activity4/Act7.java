@@ -8,7 +8,6 @@ import java.util.Scanner;
  * The voting age requirement is 18 years old. The program has a small
  * logic issue where it checks for age >= 19 instead of >= 18, but maintains
  * the existing logic to preserve functionality.
- * 
  * Input: Age of the person (integer)
  * Output: Voting qualification message
  */
