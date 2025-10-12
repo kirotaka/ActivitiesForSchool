@@ -12,7 +12,6 @@ import java.util.Scanner;
  * - D: BELOW AVERAGE
  * - F: FAILED
  * - Other inputs: INVALID INPUT
- * 
  * Input: A character representing a letter grade
  * Output: Performance description or error message for invalid input
  */
@@ -22,6 +21,7 @@ public class Act10 {
         Scanner scanner = new Scanner(System.in);
         
         // Read and process user input (trim whitespace and convert to uppercase)
+        System.out.print("Enter A Character: ");
         String raw = scanner.nextLine().trim().toUpperCase();
         
         // Check for empty input
