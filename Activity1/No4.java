@@ -1,3 +1,5 @@
+package Activity1;
+
 public class No4 {
 //     A milk carton can hold 3.78 liters of milk. Each morning, a dairy farm ships cartons of milk to a
 // local grocery store. The cost of producing one liter of milk is $0.38, and the profit of each carton
