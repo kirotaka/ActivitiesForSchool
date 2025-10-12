@@ -6,7 +6,6 @@ import java.util.Scanner;
  * This program checks if a given number is divisible by 5.
  * It reads an integer from the user and uses the modulo operator
  * to determine divisibility.
- * 
  * Input: An integer number
  * Output: "DIVISIBLE" if the number is divisible by 5, "NOT DIVISIBLE" otherwise
  */
