@@ -5,9 +5,7 @@ import java.util.Scanner;
 /**
  * 3. Write a program that prompts the user to input an integer and then outputs the number
  * with the digits reversed. For example, if the input is 12345, the output should be 54321.
- * 
- * Algorithm: Extract each digit from right to left using modulo 10, and build the reversed
- * number by multiplying the current reversed number by 10 and adding the extracted digit.
+
  */
 public class Number3 {
     public static void main(String[] args) {

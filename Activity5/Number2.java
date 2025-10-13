@@ -1,10 +1,7 @@
 package Activity5;
 
-/**
- * 2. Write a program to calculate the sum of first 10 natural numbers.
- * This program uses a loop to add numbers from 1 to 10 and displays
- * the cumulative sum after each addition.
- */
+
+// 2. Write a program to calculate the sum of first 10 natural numbers.
 public class Number2 {
     public static void main(String[] args) {
         // Initialize sum variable to store cumulative total

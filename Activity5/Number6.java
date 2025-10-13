@@ -5,9 +5,6 @@ import java.util.Scanner;
 /**
  * 6. Write a program that prompts the user to input a positive integer. It should then output a
  * message indicating whether the number is a prime number.
- * 
- * A prime number is a natural number greater than 1 that has no positive divisors other than
- * 1 and itself. This program checks divisibility from 2 up to the square root of the number.
  */
 public class Number6 {
     public static void main(String[] args) {

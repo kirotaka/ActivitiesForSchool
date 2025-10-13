@@ -13,10 +13,6 @@ package Activity5;
  *     ***
  *     ****
  *     *****
- * 
- * This program demonstrates nested loops to create two different patterns:
- * - Pattern I: A rectangle of 4 rows with 10 asterisks each
- * - Pattern II: A right triangle with increasing asterisks (1 to 5)
  */
 public class Number8 {
     public static void main(String[] args) {

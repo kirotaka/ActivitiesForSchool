@@ -6,9 +6,6 @@ import java.util.Scanner;
  * 7. Write a do-while loop that asks the user to enter two numbers. The numbers should be
  * added and the sum displayed. The loop should ask the user whether he or she wishes to
  * perform the operation again. If so, the loop should repeat; otherwise it should terminate.
- * 
- * This program validates that the input numbers are positive and allows the user to
- * continue performing additions until they choose to exit.
  */
 public class Number7 {
     public static void main(String[] args) {

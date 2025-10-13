@@ -5,10 +5,6 @@ import java.util.Scanner;
 /**
  * 4. Write a program that reads a set of integers, and then prints the sum of the even and
  * odd integers.
- * 
- * This program prompts the user to enter how many integers they want to process,
- * then reads each integer and categorizes it as even or odd. Finally, it displays
- * the sum of even integers and the sum of odd integers separately.
  */
 public class Number4And5 {
     public static void main(String[] args) {
