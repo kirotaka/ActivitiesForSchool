@@ -1,0 +1,173 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BODY */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f2f4f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+
+.resume {
+    max-width: 900px;
+    background: #ffffff;
+    margin: 40px auto;
+    padding: 40px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+
+.contact p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2563eb;
+    padding-left: 10px;
+    color: #2563eb;
+}
+
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+
+/* SUBTEXT */
+.sub {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+
+/* DIVIDERS */
+hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 25px 0;
+}
+
+
+/* TWO COLUMN LAYOUT */
+.two-column {
+    display: flex;
+    gap: 40px;
+}
+
+
+.column {
+    flex: 1;
+}
+
+
+/* BLOCKS */
+.block {
+    margin-bottom: 18px;
+}
+
+
+/* LISTS */
+ul {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+li {
+    margin-bottom: 4px;
+}
+
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+.skills span {
+    background: #e0e7ff;
+    color: #1e3a8a;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+
+/* REFERENCES */
+.references {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reference {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #2563eb;
+}
+
+.reference p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.reference strong {
+    color: #2563eb;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .two-column {
+        flex-direction: column;
+    }
+}
