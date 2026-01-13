@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grocery_store>
+    <products>
+        <!-- Rice Products -->
+        <product id="001" category="staples">
+            <name>Sinandomeng Rice</name>
+            <brand>NFA</brand>
+            <price currency="PHP">50. 00</price>
+            <unit>per kilogram</unit>
+            <description>Premium quality white rice, popular choice for Filipino households</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Canned Goods -->
+        <product id="002" category="canned_goods">
+            <name>Corned Beef</name>
+            <brand>Purefoods</brand>
+            <price currency="PHP">68.50</price>
+            <unit>per 150g can</unit>
+            <description>Classic corned beef, perfect for quick breakfast meals</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Condiments -->
+        <product id="003" category="condiments">
+            <name>Soy Sauce (Toyo)</name>
+            <brand>Silver Swan</brand>
+            <price currency="PHP">35.00</price>
+            <unit>per 385ml bottle</unit>
+            <description>Traditional Filipino soy sauce for cooking and dipping</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Fish Sauce -->
+        <product id="004" category="condiments">
+            <name>Fish Sauce (Patis)</name>
+            <brand>Lorins</brand>
+            <price currency="PHP">28.00</price>
+            <unit>per 350ml bottle</unit>
+            <description>Essential Filipino condiment for flavoring dishes</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Noodles -->
+        <product id="005" category="instant_food">
+            <name>Pancit Canton</name>
+            <brand>Lucky Me! </brand>
+            <price currency="PHP">12.50</price>
+            <unit>per 60g pack</unit>
+            <description>Popular instant stir-fry noodles with savory flavor</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Cooking Oil -->
+        <product id="006" category="cooking_essentials">
+            <name>Vegetable Cooking Oil</name>
+            <brand>Mazola</brand>
+            <price currency="PHP">185.00</price>
+            <unit>per 1 liter</unit>
+            <description>Refined vegetable oil for everyday cooking</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Coffee -->
+        <product id="007" category="beverages">
+            <name>3-in-1 Coffee Mix</name>
+            <brand>Nescafe</brand>
+            <price currency="PHP">95.00</price>
+            <unit>per 10 sachets</unit>
+            <description>Instant coffee with creamer and sugar, Filipino favorite</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Sugar -->
+        <product id="008" category="staples">
+            <name>White Sugar</name>
+            <brand>Crystal</brand>
+            <price currency="PHP">60.00</price>
+            <unit>per kilogram</unit>
+            <description>Refined white sugar for sweetening and cooking</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Sardines -->
+        <product id="009" category="canned_goods">
+            <name>Sardines in Tomato Sauce</name>
+            <brand>Ligo</brand>
+            <price currency="PHP">22.00</price>
+            <unit>per 155g can</unit>
+            <description>Spanish style sardines, Filipino household staple</description>
+            <in_stock>true</in_stock>
+        </product>
+
+        <!-- Eggs -->
+        <product id="010" category="fresh_produce">
+            <name>Fresh Chicken Eggs</name>
+            <brand>Chooks to Go</brand>
+            <price currency="PHP">90.00</price>
+            <unit>per dozen</unit>
+            <description>Medium-sized fresh eggs from free-range chickens</description>
+            <in_stock>true</in_stock>
+        </product>
+    </products>
+</grocery_store>
