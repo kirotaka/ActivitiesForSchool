@@ -1,5 +1,10 @@
 package Assignment2;
 
+/**
+ * The Main class serves as the entry point for the Library application.
+ * It demonstrates creating a Library, adding Book objects to it,
+ * and displaying the complete catalogue.
+ */
 public class Main {
     public static void main(String[] args) {
 
