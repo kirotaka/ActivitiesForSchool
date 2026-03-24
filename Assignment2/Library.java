@@ -31,7 +31,7 @@ public class Library {
 
         books.forEach(System.out::println);
     }
-    
+
     // Returns the number of books currently in the library.
 
     public int getTotalBooks() {
